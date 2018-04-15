@@ -20,7 +20,6 @@ module.exports = {
   entry: {
     main: [
       'bootstrap/dist/css/bootstrap.css',
-      'babel-polyfill',
       'isomorphic-fetch',
       path.resolve(__dirname, 'src/css/main.scss'),
       path.resolve(__dirname, 'src/client.jsx'),

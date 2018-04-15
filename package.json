@@ -21,6 +21,7 @@
     "bootstrap": "^3.3.7",
     "browser-cookies": "^1.1.0",
     "classnames": "^2.2.5",
+    "core-js": "^2.5.5",
     "dotenv": "^4.0.0",
     "history": "^4.7.2",
     "isomorphic-fetch": "^2.2.1",
@@ -37,7 +38,8 @@
     "reconnecting-websocket": "^3.0.3",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.1",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "regenerator-runtime": "^0.11.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.0.1",

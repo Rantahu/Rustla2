@@ -1,4 +1,7 @@
-global.Promise = require('bluebird');
+// This statement is replaced by `babel-preset-env` with imports of the minimal
+// polyfills necessary for the last two browser versions.
+import 'babel-polyfill';
+
 import React from 'react';
 import { render } from 'react-dom';
 
