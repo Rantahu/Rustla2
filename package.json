@@ -4,10 +4,10 @@
   "description": "OverRustle",
   "private": true,
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
-    "clean": "rm -rf lib public/assets public/index.html",
+    "clean": "rm -rf public/assets public/index.html",
     "build": "npm run clean && npm run build:bundle",
     "build:bundle": "webpack --progress --display-chunks --display-reasons --display-error-details --display-modules",
     "build:production": "NODE_ENV=production npm run build",
@@ -21,13 +21,12 @@
     "bootstrap": "^3.3.7",
     "browser-cookies": "^1.1.0",
     "classnames": "^2.2.5",
-    "dotenv": "^4.0.0",
+    "dotenv": "^5.0.1",
     "history": "^4.7.2",
     "idx": "^2.3.0",
     "isomorphic-fetch": "^2.2.1",
     "jwt-simple": "^0.5.1",
     "lodash": "^4.17.4",
-    "lodash.trim": "^4.5.1",
     "prop-types": "^15.5.8",
     "qs": "^6.5.1",
     "react": "^16.3.0",

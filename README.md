@@ -1,14 +1,14 @@
-# overrustle.com
+# strims.gg
 
 Livestream viewing with `destiny.gg` chat.
 
 ## Setup
 
-First, ensure that you have Node.js (version 4 or greater) and `npm` (preferably
+First, ensure that you have Node.js (version 6 or greater) and `npm` (preferably
 the latest stable release) installed. Then,
 
 ``` bash
-$ git clone https://github.com/ILiedAboutCake/Rustla2.git
+$ git clone https://github.com/MemeLabs/Rustla2.git
 $ cd Rustla2/
 $ cp .env.example .env
 ```
@@ -16,13 +16,15 @@ $ cp .env.example .env
 Edit `.env` to change various environment variables. Most importantly,
 `JWT_SECRET` should **not** be left blank.
 
-Install dependencies, build assets, and run the server:
+Install front dependencies and build the frontend:
 
 ``` bash
 $ npm install
 $ npm run build
-$ npm start
 ```
+
+Then, follow the instructions in `api/README.md` for how to start the backend
+(which includes the API server and a web server for the frontend).
 
 ### Creating Twitch client
 
